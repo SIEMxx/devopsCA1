@@ -1,0 +1,554 @@
+    1  gh repo view SIEMxx/lab6 --json defaultBranchRef
+    2  git Is-remote --heads origin
+    3  git ls-remote --heads origin
+    4  gh pr create --repo SIEMxx/lab6 --base q3-collaborator-test --head Q12345 --title "Merge Q12345 answers" --body "Submitting the Q1-Q5 answer scripts for review."
+    5  gh pr view 3 --repo SIEMxx/lab6
+    6  gh repo view SIEMxx/lab6 --web
+    7  gh pr list --repo SIEMxx/lab6
+    8  gh repo view SIEMxx/lab6 --json defaultBranchRef
+    9  gh pr merge 3 --repo SIEMxx/lab6 --merge
+   10  git status
+   11  ls
+   12  git ls-remote --head origin 
+   13  find ~/year3/devops -name "q7.sh" -o -name "q8.sh"
+   14  cd ~/year3/devops/week6
+   15  echo 'gh pr merge 3 --repo SIEMxx/lab6 --merge' > q8.sh
+   16  ls
+   17  cat q7.sh q8.sh
+   18  echo 'gh pr create --repo SIEMxx/lab6 --base q3-collaborator-test --head Q12345 --title "Merge Q12345 answers" --body "Submitting the Q1-Q5 answer scripts for review."' > q7.sh
+   19  ls
+   20  cat q7.sh q8.sh
+   21  cd ~/year3/devops/lab6
+   22  cp ~/year3/devops/week6/q7.sh ~/year3/devops/week6/q8.sh .
+   23  ls
+   24  git branch -a
+   25  git switch -c main q3-collaborator-test
+   26  git add q7.sh q8.sh
+   27  git commit -m "Add answers for Q7 and Q8"
+   28  git add q7.sh q8.sh
+   29  git commit -m "add answers for Q7 and Q8"
+   30  git push -u origin main
+   31  git branch -a 
+   32  ls -la
+   33  ls -l ~/year3/devops/week6/q*.sh
+   34  cd ~/year3/devops/lab6
+   35  cp ~/year3/devops/week6/q2.sh .
+   36  cp ~/year3/devops/week6/q3.sh .
+   37  cp ~/year3/devops/week6/q4.sh .
+   38  cp ~/year3/devops/week6/q5.sh .
+   39  ls q*sh
+   40  cd year3/devops/week6
+   41  cd ..
+   42  cd week6
+   43  ls -la
+   44  cat q1.sh
+   45  bash q1.sh
+   46  cd year3 
+   47  ls
+   48  cd devops
+   49  ls
+   50  mkdir workbook
+   51  cd workbook
+   52  ls -al
+   53  ls
+   54  mkdir week1
+   55  cd week1
+   56  cd ..
+   57  rm week1
+   58  ls
+   59  rmdir week1
+   60  ls
+   61  nano hello.sh
+   62  ls
+   63  cat hello.sh
+   64  git add hellow.sh
+   65  git init -b main
+   66  git add hellow.sh
+   67  ls
+   68  rm hello.sh hellow.sh
+   69  ls
+   70  nano hellow.sh
+   71  ls
+   72  git init -b main 
+   73  git add hellow.sh
+   74  git commit hellow.sh
+   75  cd year3/devops
+   76  ls
+   77  cd workbook
+   78  ls
+   79  cat hellow.sh
+   80  ssh-keygen -t ed25519 -C "your-x00229777@mytudublin.ie"
+   81  nano ~/.ssh/id_ed25519.pub
+   82  git remote add origin git@github.com;x00229777@mytudubln.ie/devopswork1.git
+   83  ls
+   84  git remote add origin git@github.com;x00229777@mytudubln.ie/devopswork1.git
+   85  git remote st-url orgigin git@github.com:SIEMxx/devops.Week1.git
+   86  git remote -v
+   87  git remote -V
+   88  ssh -T git@github.com
+   89  git remote st-url orgigin git@github.com:SIEMxx/devops.Week1.git
+   90  git remote-v
+   91  200~git remote set-url origin git@github.com:SIEMxx/devops.Week1.git~
+   92  git remote set-url origin git@github.com:SIEMxx/devops.Week1.git
+   93  git remote -v
+   94  echo "Hellow devops week1" > hellow.sh
+   95  git add hellow.sh
+   96  git commit -m "First version of hello script"
+   97  git push -u origin main 
+   98  echo "Hellow DEVOPS week1" > hellow.sh
+   99  git add hellow.sh
+  100  git commit -m "Update hello messga
+  101  git commit -m "Update hello messga
+  102  git commit -m "Update hello messga
+  103  git commit -m "Update hello messga"
+  104  echo "Hellow DEVOPS week1" > hellow.sh
+  105  git commit -m "Update hello messga
+  106  git commit -m "Update hello messga"
+  107  echo "Hellow DEVOPS week1" > hellow.sh
+  108  git add hellow.sh
+  109  git commit -m "Update hello message"
+  110  git log --oneline
+  111  cd year3/devops/workbook
+  112  ls
+  113  cat hellow.sh
+  114  git log --oneline
+  115  nano siem.sh
+  116  cat siem.sh
+  117  bash siem.sh
+  118  git add siem.sh
+  119  git commit -m "Add siem script"
+  120  git push
+  121  ls
+  122  git push --set-upstream origin main
+  123  ls 
+  124  rm siem.sh
+  125  ls
+  126  echo " SIEM is the best" > siem.sh
+  127  bash siem.sh
+  128  cat siem.sh
+  129  git remote set-url origin https://github.com/SIEMxx/devopsWork1.git
+  130  git remote -v
+  131  git add siem.sh
+  132  git commit -m "Add siem script"
+  133  git push -u origin main
+  134  nano siem.sh
+  135  cat siem.sh
+  136  git add siem.sh
+  137  git commmit -m " the updated"
+  138  git push 
+  139  git add siem.sh
+  140  git commit -m "The updated"
+  141  git push
+  142  ls -l ~/.ssh/id_ed25519*
+  143  rm ~/.ssh/id_ed25519 ~/.ssh/id_ed25519.pub
+  144  ls -l ~/.ssh/id_ed25519*
+  145  clear
+  146  ls
+  147  ls -l ~/.ssh/id_ed25519*
+  148  ssh-keygen -t ed25519 -C "x00229777@mytudublin.ie"
+  149  cat ~/.ssh/id_ed25519.pub
+  150  ssh -T git@github.com
+  151  git init -b main
+  152  git remote -v
+  153  git status 
+  154  git init -b main 
+  155  git remote set-rul origin git@github.com:SIEMxx/devopsWork1.git
+  156  git remote -v
+  157  git remote set-url orgin git@github.com:SIEMxx/devopsWork1.git
+  158  git remote set-url origin git@github.com:SIEMxx/devopsWork1.git
+  159  git remote -v
+  160  git push -u origin main 
+  161  cd ..
+  162  ls
+  163  cd wee2
+  164  cd week2
+  165  ls
+  166  cat hellow.sh
+  167  rm week2
+  168  cd ..
+  169  rm week2
+  170  rm -r week2
+  171  ls
+  172  rm -rf week2
+  173  ls
+  174  mkdir week2
+  175  cd week2
+  176  ls
+  177  cd ../week1
+  178  ls
+  179  cat hellow.sh
+  180  cat md
+  181  ls
+  182  rm md
+  183  ls
+  184  cd ../week2
+  185  ls
+  186  git clone git@github.com:SIEMxx/devopsWork1.git
+  187  rm -rf devopsWork1
+  188  ls
+  189  git clone git@github.com:SIEMxx/devops.Week1.git
+  190  ls
+  191  cd devops.Week1
+  192  ls
+  193  git log --oneline 
+  194  get stutus
+  195  git status
+  196  git log --oneline --all --decorate
+  197  git tag
+  198  git log --all --oneline --reverse -- hellow.sh
+  199  git remote -v
+  200  git show 56be7dd:hellow.sh
+  201  cd ..
+  202  ls
+  203  rm devops.Week1
+  204  rm -rf devops.Week1
+  205  ls
+  206  pwd
+  207  git clone git@github.com:SIEMxx/devops.Week1.git
+  208  ls
+  209  cd devops.Week1
+  210  ls
+  211  cat hellow.sh
+  212  nano hellow.sh
+  213  cat cr101
+  214  nano cr101.sh
+  215  ls
+  216  git status
+  217  cd ..
+  218  ls
+  219  rm -rf devops.Week1
+  220  ls
+  221  git clone github@gmail.com:SIEMxx/devops.Week1.git
+  222  git clone github@gitgub.com:SIEMxx/devops.Week1.git
+  223  git clone github@github.com:SIEMxx/devops.Week1.git
+  224  git clone git@github.com:SIEMxx/devops.Week1.git
+  225  ls
+  226  cd devops.Week1
+  227  ls
+  228  git status
+  229  cat hellow.sh
+  230  cat cr101.sh
+  231  git log --oneline --all
+  232  git tag
+  233  git show 56be7dd:hellow.sh
+  234  git log --oneline --reverse -- hellow.sh 
+  235  git show 26092dc:hellow.sh
+  236  git show 36092dc:hellow.sh
+  237  git show 9633ae6:hellow.sh
+  238  git tag v3 93a297a
+  239  git tag v3 93a207a
+  240  git tag
+  241  git push origin --tags
+  242  cd ..
+  243  ls
+  244  mkdir week2tag
+  245  ls
+  246  cd week2tag
+  247  git clone git@github.com:SIEMxx/devops.Week1.git
+  248  ls
+  249  cd devops.Week1
+  250  git fetch --tags
+  251  git tag
+  252  git branch -a
+  253  git show --no-patch --oneline origin/tag-test
+  254  git log --oneline --decorate --graph --all -10
+  255  ls
+  256  cd year3
+  257  cd devops
+  258  ls
+  259  cd week2
+  260  ls
+  261  cd week2tag/devops.Week1
+  262  ls
+  263  git switch -c tag-test v1
+  264  cat hellow.sh
+  265  ls
+  266  echo "Hello from tag-test branch" >> hellow.sh 
+  267  cat hellow.sh
+  268  git status
+  269  git add hellow.sh
+  270  git commit -m "updated"
+  271  git push
+  272  git push --set-upstream origin tag-test
+  273  git fetch origin 
+  274  git ls-remote --heads origin tag
+  275  git ls-remote --heads origin tag-test-old
+  276  git push origin origin/tag-test:refs/heads/tag-test-old
+  277  git ls-remote --heads origin tag-test tag-test-old
+  278  git push --force-with-lease --set-upstream origin tag-test
+  279  git status
+  280  cd 
+  281  cd year3/devops
+  282  ls
+  283  cd workbook 
+  284  ls
+  285  rm -rf hellow.sh siem.sh
+  286  ls 
+  287  ls
+  288  echo "Hellow devops week1" hellow.sh
+  289  echo "Hellow devops week1" hello
+  290  echo "Hellow devops week1" > hellow.sh 
+  291  ls
+  292  cd year3/devops
+  293  ls
+  294  cd workbook
+  295  ls
+  296  ssh -T git@github.com
+  297  ssh-add -D
+  298  cd yeae3/devops
+  299  cd yeae3/devop
+  300  cd yeae3
+  301  ls
+  302  cd year3
+  303  cd devops
+  304  ls
+  305  cd workbook
+  306  ls
+  307  echo "This is siem: " > siem.sh
+  308  bash siem.sh
+  309  chrome +x siem.sh
+  310  cherom +x siem.sh
+  311  chmode +x sime.sh
+  312  chmod +x siem.sh
+  313  bash siem.sh
+  314  cat siem.sh
+  315  git remote set_url origin https://github.com/SIEMxx/devopsSIEMxx.git
+  316  git status
+  317  git remote -v
+  318  git remote set_url origin ded to commit (use "git add" and/or "git commit -a")
+  319  x00229777@cloudshell:~/year3/devops/workbook$ git remote -v
+  320  origin  git@github.com:SIEMxx/devopsWork1.git (fetch)
+  321  origin  git@github.com:SIEMxx/devopsWork1.git (push)
+  322  x00229777@cloudshell:~/year3/devops/workbook$ 
+  323  git remote set_url origin https://github.com/SIEMxx/devopsSIEMxx.git
+  324  git remote set-url origin https://github.com/SIEMxx/devopsSIEMxx.git
+  325  git remote -v
+  326  ls
+  327  git add siem.sh
+  328  git commit -m "devopsSIEMxx.git"
+  329  git push 
+  330  git remote -v
+  331  git log -1 --online 
+  332  git log -1 --oneline
+  333  git fetch origin 
+  334  git status
+  335  ls
+  336  nano siem.sh
+  337  git add
+  338  git add siem.sh
+  339  git commit -m "New siem.sh"
+  340  git push
+  341  ls
+  342  yes
+  343  clear
+  344  ls
+  345  cat siem.sh
+  346  git status
+  347  git add hellow.sh
+  348  git commit -m "update of hellow.sh"
+  349  git push
+  350  git status
+  351  git diff
+  352  git status
+  353  nano hellow.sh
+  354  git diff
+  355  git staus
+  356  git status
+  357  ls
+  358  git status
+  359  git push hellow.sh
+  360  git add hellow.sh
+  361  git commit -m ""
+  362  git commit -m "update"
+  363  git push hellow.sh
+  364  git status
+  365  git push origin main 
+  366  git status
+  367  git fetch origin
+  368  cd ..
+  369  ls
+  370  mkdir DevOps-CA1-Practice
+  371  cd DevOps-CA1-Practice
+  372  pwd
+  373  ssh-keygen -t ed25519 -C "EMAIL"
+  374  ssh-keygen -t ed25519 -C "x00229777@mytudublin.ie"
+  375  cat ~/.ssh/id_ed25519.pub
+  376  ssh -T git@github.com
+  377  ssh-keygen -t ed25519 -C "YOUR_EMAIL"
+  378  cat ~/.ssh/id_ed25519.pub
+  379  ssh-keygen -t ed25519 -C "x00229777@mytudublin.ie"
+  380  ssh -T git@github.com
+  381  ls
+  382  ssh -T git@github.com
+  383  ssh-keygen -lf ~/.ssh/id_ed25519.pub
+  384  ssh -vT git@github.com
+  385  ls
+  386  clear 
+  387  ssh-keygen-t ed25519 -C "x00229777@mytudublin.ie"
+  388  ssh-keygen -t ed25519 -C "x00229777@mytudublin.ie"
+  389  cat ~/.ssh/id_ed25519.pub
+  390  ssh -T git@github.com
+  391  gh auth status
+  392  git remote -V
+  393  git remote add origin URL
+  394  git status
+  395  git rev-parse --show-toplevel
+  396  pwd
+  397  ls -la
+  398  git init
+  399  git status
+  400  git remote -V
+  401  git remote -v
+  402  git remote add origin
+  403  git remote add origin git@github.com:SIEMxx/DevOps-CA1-Practice.git
+  404  git remote -v
+  405  ls
+  406  cd year3
+  407  cd devops
+  408  ls
+  409  cd Devops-CA1-Practice
+  410  ls
+  411  cd DevOps-CA1-Practice
+  412  ls
+  413  echo " hi siem" > CA.sh
+  414  git status
+  415  ls
+  416  git remote add origin https://github.com/esiemestifanos-source/CA.git
+  417  git remote set-url origin https://github.com/esiemestifanos-source/CA.git
+  418  git status
+  419  git add CA.sh
+  420  git commit -m "CA.sh"
+  421  git push origin main
+  422  git push 
+  423  git status
+  424  git push -u origin master
+  425  gh auth status
+  426  gh auth logout
+  427  gh auth login 
+  428  gh auth login
+  429  clearl
+  430  clear
+  431  git status
+  432  gh auth jstatus
+  433  gh auth status
+  434  gh auth login
+  435  gh auth status
+  436  gh auth login
+  437  gh auth status
+  438  git status
+  439  gh auth login
+  440  gh auth logout
+  441  ls
+  442  git remote set-url origin https://github.com/SIEMxx/DevOps-CA1-Practice.git
+  443  git add CA.sh
+  444  git commit -m "CA.sh"
+  445  git push CA.sh
+  446  git status
+  447  git remote -v
+  448  gh auth status
+  449  gith push -r origin master
+  450  git add CA.sh
+  451  git commit -m "CA.sh"
+  452  gith push -u origin master
+  453  git push -u origin master
+  454  gh auth switch
+  455  gh auth status
+  456  git stutes
+  457  git add CA.sh
+  458  git commit -m "CA.sh
+  459  git add CA.sh
+  460  git commit -m "CA.sh"
+  461  git push -u origin master
+  462  git add CA.sh
+  463  git commit -m "update"
+  464  git push CA.sh
+  465  git push
+  466  clear
+  467  ssh-keygen -t ed25519 -C "x00229777@mytudublin.ie"
+  468  cat ~/.ssh/id_ed25519.pub
+  469  ssh -T git@github.com
+  470  gh auth status
+  471  gh issue list
+  472  gh issue create
+  473  gh issue list
+  474  gh issue view 1
+  475  gh issue view 2
+  476  gh issue list
+  477  gh issue view 1
+  478  gh issue edit 1 --add-assignee @me
+  479  gh issue view 1
+  480  gh issue edit 1 --add-label bug
+  481  gh issue view 1
+  482  gh issue close 1
+  483  gh issue view 1
+  484  gh issue open 1
+  485  gh issue view 1
+  486  gh issue list --state all 
+  487  gh issue list
+  488  gh issue reopen 1
+  489  gh issue list 
+  490  clear
+  491  cd year3/devops
+  492  ls
+  493  mkdir CA
+  494  cd CA
+  495  cd year3/devops
+  496  ls
+  497  cd CA
+  498  git clone origin git@github.com:pearse1104/CA1-MONDAY
+  499  git clone origin git@github.com:pearse1104/CA1-MONDAY.git
+  500  git clone git@github.com:pearse1104/CA1-MONDAY.git
+  501  ls
+  502  cd CA1-MONDAY
+  503  LS
+  504  CD ..
+  505  cd ..
+  506  ls
+  507  rm CA1-MONDAY
+  508  rm -rf CA1-MONDAY
+  509  LS
+  510  git status
+  511  git remote set-url origin https://github.com/SIEMxx/CA.git
+  512  git status
+  513  git push -u origin master
+  514  ls
+  515  clear
+  516  git clone git@github.com:pearse1104/CA1-MONDAY.git
+  517  git status
+  518  git branch
+  519  git status
+  520  cd ..
+  521  cd.
+  522  cd
+  523  ls
+  524  cd year3/devops
+  525  ls
+  526  cd DevOps-CA1-Practice
+  527  ls
+  528  cd ./CA
+  529  cd ..
+  530  cd CA
+  531  ls
+  532  cat CA1-MONDAY
+  533  cd CA1-MONDAY
+  534  ls
+  535  bash runme.txt
+  536  ls
+  537  bash me.txt
+  538  ls
+  539  cat me.txt
+  540  ls
+  541  git remote set-url origin https://github.com/SIEMxx/devopsCA1.git
+  542  git remote -v
+  543  git remote set-url origin https://github.com/SIEMxx/devopsCA1.git
+  544  git remote -v
+  545  ls
+  546  git add me.txt
+  547  git commit -m "commit me.txt"
+  548  git push
+  549  git add runme.txt
+  550  git commit -m "commit runme.txt"
+  551  git push
+  552  git status
+  553  git status history 
+  554  history > history.txt
